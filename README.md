@@ -49,7 +49,7 @@ O modelo final (`Specialist Custom LGBM` otimizado) demonstrou uma performance e
 Isso significa que o modelo foi capaz de **identificar corretamente 8 de cada 10 falhas reais** com 24 horas de antecedência.
 
 #### Matriz de Confusão do Modelo Final
-![Matriz de Confusão do Modelo Otimizado](image_64c08c.png)
+![Matriz de Confusão do Modelo Otimizado](MAtrizDeConfusaoFinal.png)
 
 ## 5. Como Executar o Projeto
 
@@ -73,7 +73,3 @@ O repositório contém os seguintes artefatos principais:
 2.  Execute as células em ordem. O notebook foi projetado para ser autossuficiente, instalando dependências e carregando os dados.
 3.  A célula final do notebook carrega o `modelo_final.pkl` deste repositório e realiza uma predição no conjunto de teste para validar o funcionamento.
 
-## 6. Próximos Passos
-* **Refinar a Engenharia de Atributos:** Testar diferentes janelas de tempo (ex: 6h, 48h).
-* **Explorar Modelos de Deep Learning:** Avaliar o uso de LSTMs ou Transformers para capturar padrões sequenciais mais complexos.
-* **Implementar Métrica de Custo:** Otimizar o modelo com base em uma métrica de custo de negócio que penalize Falsos Negativos mais severamente.
