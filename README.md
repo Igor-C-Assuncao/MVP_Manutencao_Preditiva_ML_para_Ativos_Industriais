@@ -59,16 +59,9 @@ Este projeto está contido em um notebook do Google Colab (`.ipynb`) e é totalm
 * Uma conta Google para executar o Google Colab.
 * (Opcional) Uma chave de API do Kaggle para baixar os dados diretamente, conforme instruído no notebook.
 
-#### 5.2 Estrutura dos Arquivos
-O repositório contém os seguintes artefatos principais:
-.
-├── predictive_maintenance_MVP.ipynb    # O notebook principal com todo o código
-├── custom_classifier.py                # Módulo com a definição da classe do modelo customizado
-├── modelo_final.pkl                    # O pipeline final treinado e salvo
-└── README.md                           # Este arquivo
 
 
-#### 5.3 Execução
+#### 5.2 Execução
 1.  Abra o arquivo `predictive_maintenance_MVP.ipynb` no Google Colab.
 2.  Execute as células em ordem. O notebook foi projetado para ser autossuficiente, instalando dependências e carregando os dados.
 3.  A célula final do notebook carrega o `modelo_final.pkl` deste repositório e realiza uma predição no conjunto de teste para validar o funcionamento.
